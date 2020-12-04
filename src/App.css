@@ -1,38 +1,184 @@
 .App {
+  margin: 1% 5%;
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* home */
+
+.tank {
+  height: 220px;
+  width: auto;
+  padding-bottom: 40px;
+  position: relative;
+  animation: move 4s;
+}
+
+@keyframes move {
+  from {left: -700px;}
+  to {left: 0px;}
+}
+
+.head {
   text-align: center;
+  padding: 60px 0 10px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  font-size: 4.3rem;
+  letter-spacing: .2rem;
+  position: relative;
+  font-weight: 500;
+  color: #202020;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sub {
+  font-size: 1.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.6rem;
+}
+
+/* navigation */
+
+.nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,0.33005077030812324) 0%, rgba(255,255,255,1) 29%);
+  margin: 10px 30px 47px 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: 14px 10px 5px 5px;
+  cursor: pointer;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.a:hover {
+  color: #5e5e5e;
+  /* font-weight: bold; */
 }
+
+.box {
+  position: relative;
+  height: 2px;
+  background-color: #2877ddcc;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  animation-name: rise;
+  animation-duration: 4s;
+  transition: ease-in;
+}
+
+@keyframes rise {
+  from {top: 15px;
+  opacity:0%;}
+  to {top: 0px;
+  opacity:100%;}
+}
+
+/* .box:hover {
+  -webkit-transition: width .5s ease-in-out;
+  -moz-transition: width .5s ease-in-out;
+  -o-transition: width .5s ease-in-out;
+  transition: width .5s ease-in-out;
+
+  width:100%;
+} */
+
+/* entries */
+
+.date {
+  font-size: 2.9rem;
+  animation-name: fade-in;
+  animation-duration: 3s;
+}
+
+.ack {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+@keyframes fade-in {
+  from {opacity: 0}
+  to {opacity:1}
+}
+
+navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size:1rem;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,0.33005077030812324) 0%, rgba(255,255,255,1) 29%);
+  top: 0;
+  position: sticky;
+  transition: top 0.5s ease-in-out;
+}
+
+.fa-arrow-up {
+  padding-top: .5rem;
+  cursor: pointer;
+  color: black;
+  text-shadow: 2px 2px 9px rgba(150, 150, 150, 0.83);
+  /* border-radius: 50px; */
+  transition: all 0.3s ease 0s;
+}
+
+.fa-arrow-up:hover {
+  text-shadow: 3px 3px 9px rgba(150, 150, 150, 0.83);
+  transform: translateY(3px);
+}
+
+.signature {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+}
+
+.subheader {
+  font-size: 1.2rem;
+  animation-name: fade-in;
+  animation-duration: 3s;
+}
+
+.v-media {
+  padding: 40px 0;
+  height: 450px;
+  margin-left: 30px;
+}
+
+.video {
+  -webkit-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.62); 
+box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.62);
+margin-left: 150px;
+}
+
+.under-box {
+  position: relative;
+  height: 400px;
+  width: 650px;
+  top: -320px;
+  left: 220px;
+  background-color: #2877ddcc;
+  z-index: -1;
+}
+
+.images {
+  width: 70%;
+  padding: 2% 15%;
+}
+
+
+
