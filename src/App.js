@@ -8,7 +8,7 @@ import Oct30 from './components/Oct30';
 import Nov6 from './components/Nov6';
 import Nov13 from './components/Nov13';
 import Nov20 from './components/Nov20';
-import Introduction2 from './components/Indroduction2';
+import Introduction2 from './components/Introduction2';
 import Dec14 from './components/Dec14';
 import Dec15 from './components/Dec15';
 import Dec16 from './components/Dec16';
