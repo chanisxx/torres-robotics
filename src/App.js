@@ -8,10 +8,15 @@ import Oct30 from './components/Oct30';
 import Nov6 from './components/Nov6';
 import Nov13 from './components/Nov13';
 import Nov20 from './components/Nov20';
-import Acknowledgement from './components/Acknowledgements'
+import Introduction2 from './components/Indroduction2';
+import Dec14 from './components/Dec14';
+import Dec15 from './components/Dec15';
+import Dec16 from './components/Dec16';
+import Dec17 from './components/Dec17';
+import Acknowledgement from './components/Acknowledgements';
 
 
-import tank from './images/arm-tank.png'
+import tank from './images/arm-tank.png';
 
 function App() {
 
@@ -42,6 +47,11 @@ function App() {
         <Route path="/Nov6" component={Nov6}/>
         <Route path="/Nov13" component={Nov13}/>
         <Route path="/Nov20" component={Nov20}/>
+        <Route path="/Introduction2" component={Introduction2}/>
+        <Route path="/Dec14" component={Dec14}/>
+        <Route path="/Dec15" component={Dec15}/>
+        <Route path="/Dec16" component={Dec16}/>
+        <Route path="/Dec17" component={Dec17}/>
         <Route path="/Acknowledgement" component={Acknowledgement}/>
   
       </div>

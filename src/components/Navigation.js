@@ -33,6 +33,31 @@ function Navigation() {
             </div>
 
             <div className="wrapper">
+                <Link className="a" to="/Introduction2">Part II</Link>
+                <div className="box"/>
+            </div>
+
+            <div className="wrapper">
+                <Link className="a" to="/Dec14">December 14th</Link>
+                <div className="box"/>
+            </div>
+
+            <div className="wrapper">
+                <Link className="a" to="/Dec15">December 15th</Link>
+                <div className="box"/>
+            </div>
+
+            <div className="wrapper">
+                <Link className="a" to="/Dec16">December 16th</Link>
+                <div className="box"/>
+            </div>
+
+            <div className="wrapper">
+                <Link className="a" to="/Dec17">December 17th</Link>
+                <div className="box"/>
+            </div>
+
+            <div className="wrapper">
                 <Link className="a" to="/Acknowledgement">Acknowledgement</Link>
                 <div className="box"/>
             </div>
