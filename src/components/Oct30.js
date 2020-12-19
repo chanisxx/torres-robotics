@@ -19,7 +19,7 @@ const Oct30 = () => {
             <img src={page1} className="images"/>
 
             <div className="v-media">
-                <ReactPlayer className="video" fluid={false} url="https://youtu.be/1-aHH5krKNk"/>
+                <ReactPlayer className="video" fluid={false} url="https://youtu.be/vdBPXA6RRY8"/>
                 <div className="under-box"/>
             </div>
 

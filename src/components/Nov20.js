@@ -18,13 +18,13 @@ const Nov20 = () => {
             <img src={page9} className="images"/>
             <img src={page10} className="images"/>
             <div className="v-media">
-                <ReactPlayer className="video" fluid={false} url="https://youtu.be/jK0jvOg7zoM"/>
+                <ReactPlayer className="video" fluid={false} url="https://youtu.be/nTZBRItMa_g"/>
                 <div className="under-box"/>
             </div>
             <img src={page11} className="images"/>
             <img src={page115} className="images"/>
             <div className="v-media">
-                <ReactPlayer className="video" fluid={false} url="https://youtu.be/wT4KGziURYY"/>
+                <ReactPlayer className="video" fluid={false} url="https://youtu.be/GVuH3e-GhNM"/>
                 <div className="under-box"/>
             </div>
         </div>

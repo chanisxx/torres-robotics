@@ -15,7 +15,7 @@ const Nov6 = () => {
             <img src={page4} className="images"/>
             <img src={page5} className="images"/>
             <div className="v-media">
-                <ReactPlayer className="video" fluid={false} url="https://youtu.be/56GbekTsLRA"/>
+                <ReactPlayer className="video" fluid={false} url="https://youtu.be/h2v7rCzbDLY"/>
                 <div className="under-box"/>
             </div>
         </div>
