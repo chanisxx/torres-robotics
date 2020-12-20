@@ -13,8 +13,7 @@ const Nov13 = () => {
 
 
             <header className="date">November 13th</header>
-            <p className="subheader">Programming the Arm and Claw</p>
-            <navigation id="sticky">11.13.20<a href="#nav"><i class="fas fa-arrow-up"></i></a></navigation>
+            <p className="subheader">Arm and Claw</p>
             
             <img src={page6} className="images"/>
             <img src={page65} className="images"/>

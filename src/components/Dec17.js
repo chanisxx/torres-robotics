@@ -9,8 +9,7 @@ const Dec17 = () => {
         <>
         <div id='Dec17'>
             <header className="date">December 17th</header>
-            <p className="subheader">Navigation</p>
-            <navigation id="sticky">12.17.20 <a href="#nav"><i class="fas fa-arrow-up"></i></a></navigation>
+            <p className="subheader">Camera and Controls</p>
             <img src={page17} className="images"/>
 
             <div className="v-media">

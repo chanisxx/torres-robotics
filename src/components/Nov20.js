@@ -13,8 +13,7 @@ const Nov20 = () => {
         <div id='Nov20'>
 
             <header className="date">November 20th</header>
-            <p className="subheader">Programming the Line-Following and Ultrasonic Sensor</p>
-            <navigation id="sticky">11.20.20 <a href="#nav"><i class="fas fa-arrow-up"></i></a></navigation>
+            <p className="subheader">Line Following and Ultrasonic Sensor</p>
             <img src={page9} className="images"/>
             <img src={page10} className="images"/>
             <div className="v-media">

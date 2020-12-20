@@ -12,7 +12,7 @@ const Acknowledgement = () => {
 
             <header className="date ack">Acknowledgement</header>
             <img src={ack} className="images"/>
-            <Confetti/>
+            {/* <Confetti/> */}
         </div>
         </>
     );

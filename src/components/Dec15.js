@@ -11,7 +11,6 @@ const Dec15 = () => {
         <div id='Dec15'>
             <header className="date">December 15th</header>
             <p className="subheader">Building the Car</p>
-            <navigation id="sticky">12.15.20 <a href="#nav"><i class="fas fa-arrow-up"></i></a></navigation>
             <img src={page14} className="images"/>
             <img src={page15} className="images"/>
             <div className="v-media">
