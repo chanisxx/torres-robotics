@@ -10,7 +10,7 @@ const Introduction = () => {
         initial = {{y:400, opacity:0}}
         animate = {{y:0, opacity:1}}
         transition = {{
-            delay: 1
+            delay: 1.5
         }}
         id='intro'>
             

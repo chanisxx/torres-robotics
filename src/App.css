@@ -14,7 +14,7 @@ html {
   width: auto;
   padding: 60px 0 30px 0;
   position: relative;
-  animation: move 1s;
+  /* animation: move 1s; */
 }
 
 @keyframes move {
@@ -211,6 +211,10 @@ a {
 }
 
 .toc-a:hover {
+  font-weight: 550;
+}
+
+.toc-a a:active {
   font-weight: 550;
 }
 

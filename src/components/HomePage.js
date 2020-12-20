@@ -21,9 +21,7 @@ function HomePage() {
     useEffect(() => window.scrollTo(0, 0))
 
     return (
-        <motion.div id='HomePage'
-        
-        >
+        <div id='HomePage'>
             <div>
                 <Navigation />
                 {/* <hr></hr> */}
@@ -31,20 +29,14 @@ function HomePage() {
                         <motion.div
                         initial= {{x: -500, opacity : 0}}
                         animate= {{ x: 0, opacity : 1}}
-                        transition={{duration: 2, type: 'spring'}}
-                        // initial={{ opacity : 0 }}
-                        // animate={{ opacity : 1}}
-                        >
+                        transition={{ duration: 1, delay: .2, type: 'spring', stiffness: 70}}>
                             <TableOfContents />
                         </motion.div>
                         
-                       
                     <motion.div 
                     initial= {{x: 500, opacity : 0}}
                     animate= {{ x: 0, opacity : 1}}
-                    transition={{duration: 2, type: 'spring'}}
-                    // initial={{ opacity : 0 }}
-                    // animate={{ opacity : 1}}
+                    transition={{ duration: 1, delay:.2, type: 'spring', stiffness: 60}}
                     className='entries'>
                         <Oct30 />
                         <Nov6 />
@@ -62,7 +54,7 @@ function HomePage() {
                 
             </div>
             
-        </motion.div>
+        </div>
     )
 
 }

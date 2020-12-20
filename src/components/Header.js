@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './Navigation';
+import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom';
 import Introduction from './Introduction';
 import tank from '../images/arm-tank.png';
@@ -8,7 +8,11 @@ function Header() {
     return(
     <div>
             <div>
-                <img src = {tank} className="tank"/>
+                <motion.img 
+                initial= {{x: -1000}}
+                animate= {{ x: 0}}
+                transition={{ duration: 1, delay: .2, type: 'spring', stiffness: 40}}
+                src = {tank} className="tank"/>
 
                 <div>
                     <header className="header">Exploring Robotics</header>
